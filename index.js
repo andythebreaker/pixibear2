@@ -1,4 +1,4 @@
-// �Ф@�� Render �۰ʧP�_�O�_�� webGL
+// ³Ð¤@­Ó Render ¦Û°Ê§PÂ_¬O§_¦³ webGL
 var renderer1 = PIXI.autoDetectRenderer(256, 256);
 renderer1.resize(512, 512);
 renderer1.backgroundColor = 0x061639;
@@ -6,8 +6,8 @@ renderer1.view.style.position = "absolute";
 renderer1.view.style.display = "block";
 renderer1.autoResize = true;
 renderer1.resize(window.innerWidth, window.innerHeight);
-var texture = PIXI.utils.TextureCache["bear.png"];
-var logo = new PIXI.Sprite(texture);
+//var texture = PIXI.utils.TextureCache["bear.png"];
+//var logo = new PIXI.Sprite(texture);
 
 PIXI.loader
     .add("bear.png")
