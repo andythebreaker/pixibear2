@@ -14,9 +14,11 @@ document.getElementById("ThisIsAIdForYouToAppend").appendChild(renderer1.view);
 var stage = new PIXI.Container();
 renderer1.render(stage);
 
-var loadbear=PIXI.loader
-    .add("bear.png")
-    .load(init);
+function loadbear(){
+	PIXI.loader
+    	.add("bear.png")
+    	.load(init);
+}
 
 function init() {
         	var sprite = new PIXI.Sprite(
@@ -28,6 +30,7 @@ function init() {
 		stage.addChild(sprite);
 		}
 
+loadbear();
 console.log(new Date());
 console.log('Dude!');
 sleep(10000);
