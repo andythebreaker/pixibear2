@@ -16,6 +16,7 @@ renderer1.render(stage);
 var addbear;
 
 function loadbear(){
+	consloe.log("load")
 	addbear = PIXI.loader
     	.add("bear.png")
     	.load(init);
