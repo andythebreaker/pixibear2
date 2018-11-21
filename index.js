@@ -22,4 +22,4 @@ function init() {
   		}
 document.body.appendChild(renderer1.view);
 var stage = new PIXI.Container();
-render1.render(
+render1.render(stage)
