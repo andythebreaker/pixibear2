@@ -30,7 +30,7 @@ function init() {
 
 console.log(new Date());
 console.log('Dude!');
-sleep(1000);
+sleep(10000);
 console.log(new Date());
 renderer1.render(stage);
 console.log("runOK");
