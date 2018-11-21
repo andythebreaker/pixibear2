@@ -15,7 +15,7 @@ var stage = new PIXI.Container();
 renderer1.render(stage);
 
 function loadbear(){
-	PIXI.loader
+	var addbear = PIXI.loader
     	.add("bear.png")
     	.load(init);
 }
@@ -36,7 +36,7 @@ console.log('Dude!');
 sleep(10000);
 console.log(new Date());
 renderer1.render(stage);
-stage.addChild(loadbear);
+stage.addChild(addbear);
 console.log("runOK");
 
 function sleep(milliseconds) {
