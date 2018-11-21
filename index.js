@@ -20,6 +20,7 @@ function loadbear(){
 	addbear = PIXI.loader
     	.add("bear.png")
     	.load(init);
+	console.log("finish")
 }
 
 function init() {
