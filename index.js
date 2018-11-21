@@ -9,6 +9,10 @@ renderer1.resize(window.innerWidth, window.innerHeight);
 //var texture = PIXI.utils.TextureCache["bear.png"];
 //var logo = new PIXI.Sprite(texture);
 
+document.body.appendChild(renderer1.view);
+var stage = new PIXI.Container();
+renderer1.render(stage);
+
 PIXI.loader
     .add("bear.png")
     .load(init);
@@ -19,7 +23,6 @@ function init() {
         		);
 		console.log("123");
                 //renderer1.render(sprite);
+	
+		stage.addChild(sprite);
   		}
-document.body.appendChild(renderer1.view);
-var stage = new PIXI.Container();
-renderer1.render(stage);
