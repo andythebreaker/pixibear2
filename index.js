@@ -21,4 +21,4 @@ function init() {
               	renderer1.render(sprite);
   		}
 document.body.appendChild(renderer1.view);
-var stage = new PIXI.Container();
+//var stage = new PIXI.Container();
