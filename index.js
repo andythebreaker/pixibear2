@@ -13,9 +13,10 @@ renderer1.resize(window.innerWidth, window.innerHeight);
 document.getElementById("ThisIsAIdForYouToAppend").appendChild(renderer1.view);
 var stage = new PIXI.Container();
 renderer1.render(stage);
+var addbear;
 
 function loadbear(){
-	var addbear = PIXI.loader
+	addbear = PIXI.loader
     	.add("bear.png")
     	.load(init);
 }
