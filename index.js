@@ -28,3 +28,4 @@ function init() {
 		stage.addChild(sprite);
 		}
 renderer1.render(stage);
+console.log("runOK");
