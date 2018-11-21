@@ -18,7 +18,7 @@ function init() {
         			PIXI.loader.resources["bear.png"].texture // get Texture Cache
         		);
 		console.log("123");
-              	renderer.render1(sprite);
+              	renderer1.render(sprite);
   		}
-document.body.appendChild(renderer.view);
+document.body.appendChild(renderer1.view);
 var stage = new PIXI.Container();
