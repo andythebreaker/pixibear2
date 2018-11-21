@@ -24,10 +24,11 @@ function loadbear(){
 }
 
 function init() {
+		console.log("initSTART");
         	var sprite = new PIXI.Sprite(
         			PIXI.loader.resources["bear.png"].texture // get Texture Cache
         		);
-		console.log("123");
+		console.log("finish123");
                 //renderer1.render(sprite);
 	
 		stage.addChild(sprite);
