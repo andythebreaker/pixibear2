@@ -5,7 +5,7 @@ document.body.appendChild(app.view);
 var bunny = PIXI.Sprite.fromImage('bear.png')
 
 // center the sprite's anchor point
-bunny.anchor.set(0.5);
+bunny.anchor.set(0.1);
 
 // move the sprite to the center of the screen
 bunny.x = app.screen.width / 2;
