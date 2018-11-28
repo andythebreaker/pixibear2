@@ -1,8 +1,12 @@
 var app = new PIXI.Application(800, 800, {backgroundColor : 0xFFD700});
 document.getElementById("ThisIsAIdForYouToAppend").appendChild(app.view);
+var container = new PIXI.Container();
+
+app.stage.addChild(container);
 
 // create a new Sprite from an image path
 var bunny = PIXI.Sprite.fromImage('bear.png')
+var bunny2 = PIXI.Sprite.fromImage('bunny.png')
 
 // center the sprite's anchor point
 bunny.anchor.set(0.1);
@@ -11,7 +15,8 @@ bunny.anchor.set(0.1);
 bunny.x = app.screen.width / 2;
 bunny.y = app.screen.height / 2;
 
-app.stage.addChild(bunny);
+container.addChild(bunny);
+container.addChild(bunny2);
 
 // Listen for animate update
 /*
