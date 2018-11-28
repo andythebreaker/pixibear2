@@ -19,6 +19,9 @@ container.addChild(bunny);
 container.addChild(bunny2);
 bunny.x = app.screen.width / 2;
 
+container.x = (app.screen.width - container.width) / 3;
+container.y = (app.screen.height - container.height) / 3;
+
 // Listen for animate update
 /*
 app.ticker.add(function(delta) {
