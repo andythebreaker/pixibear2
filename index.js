@@ -17,6 +17,7 @@ bunny.y = app.screen.height / 2;
 
 container.addChild(bunny);
 container.addChild(bunny2);
+bunny.x = app.screen.width / 2;
 
 // Listen for animate update
 /*
