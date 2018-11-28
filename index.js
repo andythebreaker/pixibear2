@@ -1,4 +1,4 @@
-var app = new PIXI.Application(800, 600, {backgroundColor : 0xFFD700});
+var app = new PIXI.Application(800, 800, {backgroundColor : 0xFFD700});
 document.getElementById("ThisIsAIdForYouToAppend").appendChild(app.view);
 
 // create a new Sprite from an image path
