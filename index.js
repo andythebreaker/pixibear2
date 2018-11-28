@@ -23,11 +23,11 @@ container.x = (app.screen.width - container.width) / 3;
 container.y = (app.screen.height - container.height) / 3;
 
 // Listen for animate update
-/*
+
 app.ticker.add(function(delta) {
     // just for fun, let's rotate mr rabbit a little
     // delta is 1 if running at 100% performance
     // creates frame-independent transformation
-    bunny.rotation += 0.1 * delta;
+    bunny2.rotation += 0.5 * delta;
 });
-*/
+
