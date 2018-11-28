@@ -1,5 +1,5 @@
 var app = new PIXI.Application(800, 600, {backgroundColor : 0xFFD700});
-document.body.appendChild(app.view);
+document.getElementById("ThisIsAIdForYouToAppend").appendChild(app.view);
 
 // create a new Sprite from an image path
 var bunny = PIXI.Sprite.fromImage('bear.png')
